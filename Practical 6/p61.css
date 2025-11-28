@@ -1,0 +1,32 @@
+        table,
+        tr,
+        td,
+        th {
+            border-collapse: collapse;
+            border: 2px solid rgb(5, 104, 216);
+            color: rgb(4, 139, 22);
+        }
+        caption{
+            caption-side: bottom;
+        }
+        hr{
+            height: 3px;
+            width: auto;
+            background-color: rgb(235, 7, 216);
+        }
+        .box{
+            border: 2px solid black;
+            height: 400px;
+            width: 700px;
+           
+        }
+       */
+         td:nth-child(odd){
+            background-color: rgb(114, 114, 0);
+         }
+         th:nth-child(even){
+            background-color: rgb(165, 0, 119);
+         }
+         td.bhatt:nth-child(even){
+            background-color: red;
+         }
